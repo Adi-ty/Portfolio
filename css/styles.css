@@ -1,0 +1,350 @@
+.navigation{
+  background-image: url("https://media.giphy.com/media/Pp9W9tuVF5NwQ/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+.na{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.top{
+  color: #40514E;
+  background-image: url("https://media.giphy.com/media/Pp9W9tuVF5NwQ/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  padding-top: 100px;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 50px auto 0 auto ;
+  font-family: 'Sacramento', cursive;
+  /*font-size: 90px;
+  static sizing not dynamic in nature*/
+  font-size: 5.625rem;
+  /*16px = 100% = 1em
+  % and em are dynamic in nature
+  if you have an parent dynamic value already specified it will get added to child
+  eg- body{font-size:2em}
+      h1{font-size:5em}
+      but now as body was predefined as 2em child h1 total size will become 2+5=7em
+      $$To avoid this we have rem*/
+  color: #66BFBF;
+
+}
+h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #11999E;
+}
+hr{
+  border-style: none ;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+  height: 0;
+  /*border property alone can set border style color and width of the border*/
+  margin: auto;
+}
+
+p{
+  line-height: 2;
+}
+.middle-container{
+  margin: 0;
+  padding-top: 100px;
+  background-image: url("https://media.giphy.com/media/xT9IgkiK459Cvd5tIs/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.experience{
+  padding: 100px 0;
+  background-image: url("giphy4.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+.experience h2{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.bottom-container{
+  padding: 50px 0 20px;
+  background-color: black;
+}
+
+.pro{
+  text-decoration: underline;
+}
+.profile{
+  padding-bottom: 100px;
+}
+.skill{
+  padding: 100px 0;
+}
+#contact{
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-image: url("https://media.giphy.com/media/MEjG5NXKKS68LvGIP2/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-photo{
+  height: 150px;
+  border-radius: 100%;
+}
+.dev{
+
+  width: 25%;
+  border-radius: 100%;
+  float: left;/*text will around it*/
+  margin-right: 30px;/*margin given to img as their were different text blocks not combined*/
+}
+.CP{
+  height: 150px;
+  width: 25%;
+  border-radius: 100%;
+  float: right;
+  /*float makes text wrap around */
+  margin-left: 30px;
+}
+.card{
+  width: 65%;
+  margin: 100px auto;
+  border-radius: 5%;
+  box-shadow: 6px 12px #888888;
+}
+
+.card-header{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+/*
+.dev-skill-disc{
+  clear: left;
+  clears the left side of the image and doesn't let the text wrap around
+}*/
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.profile{
+  width: 50%;
+  margin: auto;
+}
+.contact-message{
+  margin: 40px auto 60px;
+}
+
+
+
+
+
+/* Display
+inline
+block
+inline-block
+none */
+
+/*positioning
+1)static
+
+2)relative-- relative to default static positioning
+ (The Ghost of the element still stays there)
+
+3)absolute-- positioning is done relative to its parent (img inside a div)(body is considered parent if no div)
+ (relative to body if no other parent element)
+(Unlike relative positioning no Ghost of element stays there and space is occupied if it can be
+or you can say it takes the element out of html flow)
+
+4)fixed-- It will remain fixed even if you scroll down the web page
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*display*/
+/*p{
+  background-color: blue;
+  display:inline-block;
+  width: 100px;
+}
+.second-p{
+  visibility: hidden;
+}
+span{
+
+  background-color: red;
+}*/
+
+/*.red{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 0;
+}
+.blue{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.yellow{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+  top:0;
+}
+body{
+  margin: 0;
+}
+.container{
+  height: 300px;
+  width: 300px;
+  background-color: grey;
+  position: relative;
+}
+*/
